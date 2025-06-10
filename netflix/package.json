@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vladkasyan.github.io/Netflix/",
+  "homepage": "https://vladkasyan.github.io/Netflix/netflix",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
