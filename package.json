@@ -2,13 +2,12 @@
   "name": "netflix",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
+  "main": "index.js",  "scripts": {
     "dev": "cd netflix && vite",
     "build": "cd netflix && vite build",
     "preview": "cd netflix && vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d netflix/dist"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
