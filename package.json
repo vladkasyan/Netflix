@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "cd netflix && vite",
+    "build": "cd netflix && vite build",
+    "preview": "cd netflix && vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d netflix/dist"
   },
   "keywords": [],
   "author": "",
