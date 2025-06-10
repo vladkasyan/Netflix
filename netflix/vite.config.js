@@ -1,9 +1,7 @@
 export default {
   base: '/Netflix/',
   build: {
-    outDir: '../dist',
+    outDir: 'dist',
     emptyOutDir: true
-  },
-  root: '..',
-  publicDir: 'netflix/public'
+  }
 }
